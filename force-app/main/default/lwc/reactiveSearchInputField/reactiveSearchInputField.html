@@ -1,6 +1,4 @@
 <template>
-    <div onkeyup={handleKeyUp}>
-        <lightning-input name="Searchbox" label={label} placeholder={placeholder}
-            type="search"></lightning-input>
-    </div>
+    <lightning-input type="search" name="Searchbox" label={label} placeholder={placeholder}
+        onchange={handleInputChange}></lightning-input>
 </template>

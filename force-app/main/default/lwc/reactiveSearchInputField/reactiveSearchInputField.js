@@ -18,12 +18,9 @@ export default class ReactiveSearchInputField extends LightningElement {
         return this._input;
     }
 
-    handleKeyUp(event) {
-        const isEnterKey = event.keyCode === 13;
-        if (isEnterKey) {
-            const event = new FlowAttributeChangeEvent('searchValue', event.target.value);
-            this.dispatchEvent(event);
-        }
+    handleInputChange(event) {
+        const attributeChangeEvent = new FlowAttributeChangeEvent('searchValue', event.target.value);
+        this.dispatchEvent(attributeChangeEvent);
     }
 
 }
