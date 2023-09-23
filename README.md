@@ -20,4 +20,7 @@ It is fully reactive. Thus you can rewire the record output of the component als
 Displaying some records: 
 ![Example 3](https://github.com/rutgergernandt/searchAndSelect/assets/48456874/8bae5ff9-8107-4ffb-b4cc-acca88d34e58)
 
+With searching: 
+![Example 4](https://github.com/rutgergernandt/searchAndSelect/assets/48456874/5c3135f6-9e31-4d12-8c6c-6eec27df6da7)
+
 
