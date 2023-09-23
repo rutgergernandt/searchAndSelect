@@ -10,7 +10,7 @@ While searching:
 ![Example 2](https://github.com/rutgergernandt/searchInputField/assets/48456874/040451c7-4222-4b29-87a4-27a1dfec1b03)
 
 # Selected Records Pill Box
-<p>Newly added to the repository is a pill box to display selected records. Thereby the rerendering of the table upon searching won't deselect the records selected in a previous search. Combined it mimics the functionality of the List Builder: https://www.lightningdesignsystem.com/components/list-builder/ This component is not available (yet) unfotunately however.</p>
+<p>Newly added to the repository is a pill box to display selected records. Thereby the rerendering of the table upon searching won't deselect the records selected in a previous search. Combined it mimics the functionality of the List Builder: https://www.lightningdesignsystem.com/components/list-builder/ This component is not available (yet) as a standard component unfortunately however.</p>
 
 <p>It displays the pills of records selected in the table, which can also be deselected/removed. It passes back to flow both the original records as well as an array of ids, for use downwards to create records etc.</p>
 <p>
