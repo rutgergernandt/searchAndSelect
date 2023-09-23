@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Selected Records Pill Display</masterLabel>
+    <description>Reactive Pill Container. Use in conjunction with other reactive components such as data table and data fetcher to display selected records.</description>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <propertyType name="T" extends="SObject" label="Record Collection Object API Name" description="Select the API Name of the sObject"/>
+            <property name="inputRecords" label="Source Record Collection" type="{T[]}" description="Record Collection variable containing the records to display as pills." role="inputOnly"/>
+            <property name="selectedItemsRecords" label="Output Selected Records Collection" type="{T[]}" description="Record Collection variable containing the unique records selected." role="outputOnly"/>
+            <property name="variant" label="Variant" type="String" role="inputOnly"/>
+            <property name="isCollapsible" label="Collapse" type="boolean" role="inputOnly"/>
+            <property name="isExpanded" label="Expand" type="boolean" role="inputOnly"/>
+            <property name="singleLine" label="Single Line" type="boolean" role="inputOnly"/>
+            <property name="label" label="Aria Label" type="String" role="inputOnly"/>
+            <property name="labelCounter" label="Custom Counter Label" type="String" role="inputOnly"/>
+            <property name="selectedItemsIds" label="Output Selected Records Ids" description="Collection variable containing the ids of the records selected." type="String[]" role="outputOnly"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
