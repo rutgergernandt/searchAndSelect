@@ -9,7 +9,7 @@ Not searching yet:
 While searching:
 ![Example 2](https://github.com/rutgergernandt/searchInputField/assets/48456874/040451c7-4222-4b29-87a4-27a1dfec1b03)
 
-# Search Input Field
+# Selected Records Pill Box
 <p>Newly added to the repositry is a pill box to display selected records. Thereby the rerendering of the table upon searching won't deselect the records selected in a previous search.</p>
 
 <p>It displays the pills of records selected in the table, which can also be deselected/removed. It passes back to flow both the original records as well as an array of ids, for use downwards to create records etc.</p>
