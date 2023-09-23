@@ -22,5 +22,3 @@ Displaying some records:
 
 With searching: 
 ![Example 4](https://github.com/rutgergernandt/searchAndSelect/assets/48456874/5c3135f6-9e31-4d12-8c6c-6eec27df6da7)
-
-
